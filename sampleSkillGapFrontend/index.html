@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Skill Gap Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Skill Gap Analyzer</h1>
+
+    <div class="card">
+        <label>Choose Career</label>
+        <select id="careerSelect">
+            <option value="">Select Career</option>
+        </select>
+
+        <label>Choose Skill</label>
+        <select id="skillSelect" disabled>
+            <option value="">Select Skill</option>
+        </select>
+
+        <button id="analyzeBtn" disabled>Analyze</button>
+    </div>
+
+    <div id="result" class="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
